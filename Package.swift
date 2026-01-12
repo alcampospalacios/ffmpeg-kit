@@ -24,43 +24,43 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ffmpegkit",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/ffmpegkit.xcframework.zip",
-            checksum: "7e08798a93eeae51ce7e85ff737875d107d5fd7e84bc70b333df61e41f25e02a"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/ffmpegkit.xcframework.zip",
+            checksum: "de0affab5cc9b0413b88fa5846098d0ab439362a561fa6478093071008067e3b"
         ),
         .binaryTarget(
             name: "libavcodec",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libavcodec.xcframework.zip",
-            checksum: "50f9cbd92cf6fbb19f34119e375ebdea3192261c720ca5b6a9b5c48f12e47b0c"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libavcodec.xcframework.zip",
+            checksum: "0593523e376481cef1a5d3e6f8c9fe272f1dcc902382a587fac81b1691d616a7"
         ),
         .binaryTarget(
             name: "libavdevice",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libavdevice.xcframework.zip",
-            checksum: "5c8a6462d222381f3609fc3e026db219955359077e39de91d775fbbc619a7a54"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libavdevice.xcframework.zip",
+            checksum: "c249d2733b1316190c6e4b6f0c0c495bb7663c5c22a2acdf706df9ca61c4571f"
         ),
         .binaryTarget(
             name: "libavfilter",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libavfilter.xcframework.zip",
-            checksum: "542251e84f2c93c8e256ed9994018653e7aff8365324a03dca9de1336860f011"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libavfilter.xcframework.zip",
+            checksum: "aee2465e61c4d476a9625d8ee448f01410cb0e2819be48f2858bfe2fff076222"
         ),
         .binaryTarget(
             name: "libavformat",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libavformat.xcframework.zip",
-            checksum: "ee422d4c56527a985d95b52b4a52ea65f1bda9e71f6f1d39d6dccfc1dd931d5d"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libavformat.xcframework.zip",
+            checksum: "4b61617e2e5551d255d9512c0d248154f2a644f4519d27bf62776cbaa185a49d"
         ),
         .binaryTarget(
             name: "libavutil",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libavutil.xcframework.zip",
-            checksum: "cd5a3e99c378832c7d95bc89b7e8c75af648deaff29b7c0492d93b371f6eddba"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libavutil.xcframework.zip",
+            checksum: "1856d813f64fb8c81d23eb18aa539973006b92acedfcbbe039b49a64557342a5"
         ),
         .binaryTarget(
             name: "libswresample",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libswresample.xcframework.zip",
-            checksum: "b6a6e1e58b9da229f0b61b403d99adc014e4bc4dd1c80fc6ed8ee68584eda74a"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libswresample.xcframework.zip",
+            checksum: "32fec2f646376789da78fcf3406d3089d029bdd646005bdd5a17b4e300c14ab3"
         ),
         .binaryTarget(
             name: "libswscale",
-            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.0-custom-build/libswscale.xcframework.zip",
-            checksum: "2a57c6553395a84979b75d02a2fbc0273150b9e562d359653f334e5e4d0af126"
+            url: "https://github.com/alcampospalacios/ffmpeg-kit/releases/download/v6.0.1-custom-build/libswscale.xcframework.zip",
+            checksum: "1c6654a6bf1d9a61fdf842fb07f720aa406f30d775cd274f4a4e56f768a9c492"
         )
     ]
 )

@@ -30,6 +30,11 @@ Una vez que el entorno está listo, puedes compilar la librería desde la raíz 
     ```bash
     ./ios.sh --xcframework --enable-gpl --enable-x264
     ```
+    Para ios 26 hay que desabilitar la arquitectura arm64e
+    ```bash
+    ./ios.sh --xcframework --enable-gpl --enable-x264 --disable-arm64e
+    ```bash
+
 
 2.  **Verifica la salida**: Si la compilación es exitosa, los binarios (`.xcframework`) se encontrarán en la carpeta `prebuilt/bundle-apple-xcframework-ios/`.
 
@@ -49,7 +54,11 @@ cd prebuilt/bundle-apple-xcframework-ios/
 zip -r ffmpegkit.xcframework.zip ffmpegkit.xcframework
 zip -r libavcodec.xcframework.zip libavcodec.xcframework
 zip -r libavdevice.xcframework.zip libavdevice.xcframework
-# ... y así sucesivamente para los 8 frameworks ...
+zip -r libavfilter.xcframework.zip libavfilter.xcframework
+zip -r libavformat.xcframework.zip libavformat.xcframework
+zip -r libavutil.xcframework.zip libavutil.xcframework
+zip -r libswresample.xcframework.zip libswresample.xcframework
+zip -r libswscale.xcframework.zip libswscale.xcframework 
 
 # 3. Vuelve a la raíz del proyecto
 cd ../../..
